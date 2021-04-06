@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularOverview';
+
+  keyword:string;
+
+  updateKeyword(value: string){
+    this.keyword = value;
+  }
 }
